@@ -8,7 +8,7 @@ As described in our [paper](), we make public 6 version of SciFive, each one has
 
 Instruction on access Cloud Storage from the command line with python library gsutil is described [here](https://cloud.google.com/storage/docs/gsutil)
 
-### gsutil URI for 8 SciFive models:
+### gsutil URI for 6 SciFive models:
 
 * **SciFive Pubmed+PMC Base**: [gs://scifive/pubmed_pmc/base]() 
 * **SciFive Pubmed+PMC Large**: [gs://scifive/pubmed_pmc/large]() 
