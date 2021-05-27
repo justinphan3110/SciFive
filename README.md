@@ -24,3 +24,7 @@ coming soon
 ## Datasets
 
 All of the pretraining dataset and fine-tune dataset already pre-procossed into text-text format also availabe at [https://console.cloud.google.com/storage/browser/scifive]()
+
+## Citations
+If you use SciFive model or our code for publications, please cite: 
+``` ```
