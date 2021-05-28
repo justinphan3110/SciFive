@@ -4,7 +4,7 @@ SciFive provided a Text-Text framework for biomedical language and natural langu
 
 # Google Cloud Storage 
 
-Our base Google Cloud Storage URI is at gs://scifive
+Our base Google Cloud Storage URI is at [gs://scifive]()
 
 
 As described in our [paper](), we make public 6 version of SciFive, each one has been benchmarked to achieve state-of-the-art on different biomedical task. They are all available on our [Google Cloud bucket](https://console.cloud.google.com/storage/browser/scifive), we are working on release the models on HuggingFace also.
