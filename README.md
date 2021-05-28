@@ -1,6 +1,6 @@
 # SciFive
 
-SciFive provided a Text-Text framework for biomedical language and natural language in NLP. Under the [T5](https://github.com/google-research/text-to-text-transfer-transformer)'s framework and desrbibed in the paper [SciFive: a text-to-text transformer modelfor biomedical literature](), SciFive achieve state-of-the-art and competitive results on multiple biomedical-natural language tasks. 
+SciFive provided a Text-Text framework for biomedical language and natural language in NLP. Under the [T5](https://github.com/google-research/text-to-text-transfer-transformer)'s framework and desrbibed in the paper [SciFive: a text-to-text transformer model for biomedical literature](), SciFive achieve state-of-the-art and competitive results on multiple biomedical-natural language tasks. 
 
 # Google Cloud Storage 
 
