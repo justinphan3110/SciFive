@@ -20,13 +20,17 @@ Instruction on access Cloud Storage from the command line with python library gs
 * **SciFive PMC Large**: [gs://scifive/models/pmc/base]() 
 * **SciFive PMC Large**: [gs://scifive/models/pmc/large]() 
 
+### gsutil URI for Pretrain data:
+* **Pubmed**: [gs://scifive/pretrain/pubmed]() 
+* **PMC**: [gs://scifive/pretrain/pmc]() 
+
 
 # HuggingFace
 coming soon
 
 ## Datasets
 
-All of the pretraining dataset and fine-tune dataset already pre-procossed into text-text format also availabe at [https://console.cloud.google.com/storage/browser/scifive]()
+All of the finetune dataset already pre-procossed into text-text format also availabe at [https://console.cloud.google.com/storage/browser/scifive/finetune]()
 
 ## Citations
 If you use SciFive model or our code for publications, please cite: 
