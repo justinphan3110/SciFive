@@ -10,12 +10,12 @@ Instruction on access Cloud Storage from the command line with python library gs
 
 ### gsutil URI for 6 SciFive models:
 
-* **SciFive Pubmed+PMC Base**: [gs://scifive/pubmed_pmc/base]() 
-* **SciFive Pubmed+PMC Large**: [gs://scifive/pubmed_pmc/large]() 
-* **SciFive Pubmed Base**: [gs://scifive/pubmed/base]() 
-* **SciFive Pubmed+PMC Large**: [gs://scifive/pubmed/large]() 
-* **SciFive PMC Large**: [gs://scifive/pmc/base]() 
-* **SciFive PMC Large**: [gs://scifive/pmc/large]() 
+* **SciFive Pubmed+PMC Base**: [gs://scifive/models/pubmed_pmc/base]() 
+* **SciFive Pubmed+PMC Large**: [gs://scifive/models/pubmed_pmc/large]() 
+* **SciFive Pubmed Base**: [gs://scifive/models/pubmed/base]() 
+* **SciFive Pubmed+PMC Large**: [gs://scifive/models/pubmed/large]() 
+* **SciFive PMC Large**: [gs://scifive/models/pmc/base]() 
+* **SciFive PMC Large**: [gs://scifive/models/pmc/large]() 
 
 
 # HuggingFace
