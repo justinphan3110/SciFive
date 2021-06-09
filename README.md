@@ -157,6 +157,14 @@ All of the finetune dataset already pre-procossed into text-text format also ava
 |   CodeTrans-MT-TF-Large |     90.17      |
 |   State of the art   |     85.80      |
 
+## 🤵&nbsp; Team
+
+ * <b>The University of Cool Kids:</b><br/>
+ 
+| Long Phan       |       James Anibal  |  Alec Peltekian | Erol |
+|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
+| <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/ElnaggarAhmend.jpg?raw=true"> | <img width=120/ src="https://github.com/matchlesswei/application_project_nlp_company_description/blob/master/image/Wei_Ding.jpg?raw=true"> | <img width=120/ src="https://wwwmatthes.in.tum.de/file/swwvbhnquwxq/Sebis-Public-Website/Team/20140717_7D_%2047488-3-florian-300x300.jpg"> | <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/B.Rost.jpg?raw=true"> |
+
 ## Citations
 If you use SciFive model or our code for publications, please cite: 
 ```
