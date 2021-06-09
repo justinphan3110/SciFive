@@ -52,7 +52,7 @@ All of the finetune dataset already pre-procossed into text-text format also ava
 <a name="function-documentation-generation"></a>
  * <b>💻&nbsp; Function Documentation Generation (Bleu):</b><br/>
  
-|   Language / Model   |     Python     |      Java      |       Go       |      Php       |      Ruby      |   JavaScript   |
+<!-- |   Language / Model   |     Python     |      Java      |       Go       |      Php       |      Ruby      |   JavaScript   |
 | -------------------- | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: |
 |   CodeTrans-ST-Small    |      17.31     |     16.65      |     16.89      |     23.05      |      9.19      |      13.7      |
 |   CodeTrans-ST-Base     |      16.86     |     17.17      |     17.16      |     22.98      |      8.23      |      13.17     |   
@@ -155,7 +155,7 @@ All of the finetune dataset already pre-procossed into text-text format also ava
 |   CodeTrans-MT-TF-Small |   **90.31**    |
 |   CodeTrans-MT-TF-Base  |     90.30      |
 |   CodeTrans-MT-TF-Large |     90.17      |
-|   State of the art   |     85.80      |
+|   State of the art   |     85.80      | -->
 
 ## 🤵&nbsp; Team
 
