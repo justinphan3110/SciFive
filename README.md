@@ -161,7 +161,7 @@ All of the finetune dataset already pre-procossed into text-text format also ava
 
  * <b>The University of Cool Kids:</b><br/>
  
-| Long Phan       |       James Anibal  |  Alec Peltekian | Erol |
+| Long Phan|James Anibal|Alec Peltekian| Erol |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 | <img width=120/ src="https://media-exp1.licdn.com/dms/image/C4E03AQFqMmKjyQRtAQ/profile-displayphoto-shrink_400_400/0/1594192915473?e=1628726400&v=beta&t=9rPFc2GnImXXDtPoXxoS0432LjybyWJVL0b_fn6aLew"> | <img width=100/ src="https://s3.amazonaws.com/cstest/mb/2017/06/James_Anibal.jpg.640x480_q85.jpg"> | <img width=100/
 src="https://www.gannett-cdn.com/-mm-/8d0974a94e739bc6391b75c8802cfd102422270c/c=0-97-2024-1241&r=800/local/-/media/2017/08/14/Bergen/NorthJersey/636383326343782254-08-14-2017-APeltekian-MCantow-NJSFC.JPG"> | <img width=100/
