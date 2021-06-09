@@ -159,7 +159,7 @@ All of the finetune dataset already pre-procossed into text-text format also ava
 
 ## 🤵&nbsp; Team
 
- * <b>The University of Cool Kids:</b><br/>
+ * <b>The National Institutes of Health:</b><br/>
 
 | Long Phan       |       James Anibal  |  Alec Peltekian | Erol Bahadiroglu |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
