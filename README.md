@@ -163,7 +163,7 @@ All of the finetune dataset already pre-procossed into text-text format also ava
  
 | Long Phan       |       James Anibal  |  Alec Peltekian | Erol |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-| <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/ElnaggarAhmend.jpg?raw=true"> | <img width=120/ src="https://github.com/matchlesswei/application_project_nlp_company_description/blob/master/image/Wei_Ding.jpg?raw=true"> | <img width=120/ src="https://wwwmatthes.in.tum.de/file/swwvbhnquwxq/Sebis-Public-Website/Team/20140717_7D_%2047488-3-florian-300x300.jpg"> | <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/B.Rost.jpg?raw=true"> |
+| <img width=120/ src="https://www.instagram.com/p/CH0Djnopp-fthwmbPNLWePxBO616QB1km9s_AE0/"> | <img width=120/ src="https://github.com/matchlesswei/application_project_nlp_company_description/blob/master/image/Wei_Ding.jpg?raw=true"> | <img width=120/ src="https://wwwmatthes.in.tum.de/file/swwvbhnquwxq/Sebis-Public-Website/Team/20140717_7D_%2047488-3-florian-300x300.jpg"> | <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/B.Rost.jpg?raw=true"> |
 
 ## Citations
 If you use SciFive model or our code for publications, please cite: 
