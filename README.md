@@ -27,8 +27,8 @@ Instruction on access Cloud Storage from the command line with python library gs
 * **SciFive Pubmed+PMC Base**: [gs://scifive/models/pubmed_pmc/base]() 
 * **SciFive Pubmed+PMC Large**: [gs://scifive/models/pubmed_pmc/large]() 
 * **SciFive Pubmed Base**: [gs://scifive/models/pubmed/base]() 
-* **SciFive Pubmed+PMC Large**: [gs://scifive/models/pubmed/large]() 
-* **SciFive PMC Large**: [gs://scifive/models/pmc/base]() 
+* **SciFive Pubmed Large**: [gs://scifive/models/pubmed/large]() 
+* **SciFive PMC Base**: [gs://scifive/models/pmc/base]() 
 * **SciFive PMC Large**: [gs://scifive/models/pmc/large]() 
 
 ### gsutil URI for Pretrain data:
@@ -41,7 +41,12 @@ Coming Soon
 
 
 # HuggingFace
-coming soon
+* **SciFive Pubmed+PMC Base**: [razent/SciFive-base-Pubmed_PMC](https://huggingface.co/razent/SciFive-base-Pubmed_PMC) 
+* **SciFive Pubmed+PMC Large**: [razent/SciFive-large-Pubmed_PMC](https://huggingface.co/razent/SciFive-large-Pubmed_PMC) 
+* **SciFive Pubmed Base**: [razent/SciFive-base-Pubmed](https://huggingface.co/razent/SciFive-base) 
+* **SciFive Pubmed Large**: [razent/SciFive-large-Pubmed](https://huggingface.co/razent/SciFive-lage-Pubmed) 
+* **SciFive PMC Base**: [razent/SciFive-base-PMC](https://huggingface.co/razent/SciFive-base-PMC) 
+* **SciFive PMC Large**: [razent/SciFive-large-PMC](https://huggingface.co/razent/SciFive-large-PMC) 
 
 ## Datasets
 
