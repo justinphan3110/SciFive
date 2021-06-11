@@ -41,12 +41,9 @@ Coming Soon
 
 
 # HuggingFace
-* **SciFive Pubmed+PMC Base**: [razent/SciFive-base-Pubmed_PMC](https://huggingface.co/razent/SciFive-base-Pubmed_PMC) 
-* **SciFive Pubmed+PMC Large**: [razent/SciFive-large-Pubmed_PMC](https://huggingface.co/razent/SciFive-large-Pubmed_PMC) 
-* **SciFive Pubmed Base**: [razent/SciFive-base-Pubmed](https://huggingface.co/razent/SciFive-base) 
-* **SciFive Pubmed Large**: [razent/SciFive-large-Pubmed](https://huggingface.co/razent/SciFive-lage-Pubmed) 
-* **SciFive PMC Base**: [razent/SciFive-base-PMC](https://huggingface.co/razent/SciFive-base-PMC) 
-* **SciFive PMC Large**: [razent/SciFive-large-PMC](https://huggingface.co/razent/SciFive-large-PMC) 
+* **SciFive Pubmed+PMC**: [Base](https://huggingface.co/razent/SciFive-base-Pubmed_PMC) [Large](https://huggingface.co/razent/SciFive-large-Pubmed_PMC) 
+* **SciFive Pubmed**: [Base](https://huggingface.co/razent/SciFive-base) [Large](https://huggingface.co/razent/SciFive-lage-Pubmed) 
+* **SciFive PMC**: [Base](https://huggingface.co/razent/SciFive-base-PMC) [Large](https://huggingface.co/razent/SciFive-large-PMC)
 
 ## Datasets
 
