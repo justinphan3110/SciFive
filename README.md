@@ -42,7 +42,7 @@ Coming Soon
 
 # HuggingFace
 * **SciFive Pubmed+PMC**: [Base](https://huggingface.co/razent/SciFive-base-Pubmed_PMC) | [Large](https://huggingface.co/razent/SciFive-large-Pubmed_PMC) 
-* **SciFive Pubmed**: [Base](https://huggingface.co/razent/SciFive-base) | [Large](https://huggingface.co/razent/SciFive-lage-Pubmed) 
+* **SciFive Pubmed**: [Base](https://huggingface.co/razent/SciFive-base-Pubmed) | [Large](https://huggingface.co/razent/SciFive-large-Pubmed) 
 * **SciFive PMC**: [Base](https://huggingface.co/razent/SciFive-base-PMC) | [Large](https://huggingface.co/razent/SciFive-large-PMC)
 
 ## Datasets
