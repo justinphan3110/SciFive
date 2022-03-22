@@ -76,13 +76,13 @@ All of the finetune dataset already pre-procossed into text-text format also ava
 ## 📊&nbsp; Expected Results 
 
 
-## 🤵&nbsp; Team
+<!-- ## 🤵&nbsp; Team -->
 
- * <b>The National Institutes of Health:</b><br/>
+<!--  * <b>The National Institutes of Health:</b><br/>
 
 | James Anibal       |       Long Phan  |  Alec Peltekian | Erol Bahadiroglu |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-| <img width=120/ src="https://faes.org/sites/default/files/james_anibal.png"> | <img width=120/ src="https://media-exp1.licdn.com/dms/image/C4E03AQFqMmKjyQRtAQ/profile-displayphoto-shrink_400_400/0/1594192915473?e=1628726400&v=beta&t=9rPFc2GnImXXDtPoXxoS0432LjybyWJVL0b_fn6aLew"> | <img width=120/ src="https://media-exp1.licdn.com/dms/image/C4E03AQGIjDegQmApcQ/profile-displayphoto-shrink_200_200/0/1573082873285?e=1628121600&v=beta&t=kuXiDY3qIzmAAqDvZugOgCAcFlaGEw4fRbJf1pAdMPY"> | <img width=120/ src="https://media-exp1.licdn.com/dms/image/C4D03AQGygdk5u9F1HA/profile-displayphoto-shrink_200_200/0/1522727407036?e=1628121600&v=beta&t=Z_4O17wxhWnatS7Vye0VekyIJiKBMOvpdyCyO3pIaVY"> |
+| <img width=120/ src="https://faes.org/sites/default/files/james_anibal.png"> | <img width=120/ src="https://media-exp1.licdn.com/dms/image/C4E03AQFqMmKjyQRtAQ/profile-displayphoto-shrink_400_400/0/1594192915473?e=1628726400&v=beta&t=9rPFc2GnImXXDtPoXxoS0432LjybyWJVL0b_fn6aLew"> | <img width=120/ src="https://media-exp1.licdn.com/dms/image/C4E03AQGIjDegQmApcQ/profile-displayphoto-shrink_200_200/0/1573082873285?e=1628121600&v=beta&t=kuXiDY3qIzmAAqDvZugOgCAcFlaGEw4fRbJf1pAdMPY"> | <img width=120/ src="https://media-exp1.licdn.com/dms/image/C4D03AQGygdk5u9F1HA/profile-displayphoto-shrink_200_200/0/1522727407036?e=1628121600&v=beta&t=Z_4O17wxhWnatS7Vye0VekyIJiKBMOvpdyCyO3pIaVY"> | -->
 
 ## Citations
 If you use SciFive model or our code for publications, please cite: 
