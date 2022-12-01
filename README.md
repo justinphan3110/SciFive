@@ -12,6 +12,36 @@
 
 SciFive provided a Text-Text framework for biomedical language and natural language in NLP. Under the [T5](https://github.com/google-research/text-to-text-transfer-transformer)'s framework and desrbibed in the paper [SciFive: a text-to-text transformer model for biomedical literature](https://arxiv.org/abs/2106.03598), SciFive achieve state-of-the-art and competitive results on multiple biomedical-natural language tasks. 
 
+
+# 🤗 HuggingFace
+* **SciFive Pubmed+PMC**: [Base](https://huggingface.co/razent/SciFive-base-Pubmed_PMC) | [Large](https://huggingface.co/razent/SciFive-large-Pubmed_PMC) 
+* **SciFive Pubmed**: [Base](https://huggingface.co/razent/SciFive-base-Pubmed) | [Large](https://huggingface.co/razent/SciFive-large-Pubmed) 
+* **SciFive PMC**: [Base](https://huggingface.co/razent/SciFive-base-PMC) | [Large](https://huggingface.co/razent/SciFive-large-PMC)
+
+```python
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+
+tokenizer = AutoTokenizer.from_pretrained("razent/SciFive-base-Pubmed")  
+model = AutoModelForSeq2SeqLM.from_pretrained("razent/SciFive-base-Pubmed")
+
+sentence = "Identification of APC2 , a homologue of the adenomatous polyposis coli tumour suppressor ."
+text = sentence + " </s>"
+
+encoding = tokenizer.encode_plus(text, pad_to_max_length=True, return_tensors="pt")
+input_ids, attention_masks = encoding["input_ids"].to("cuda"), encoding["attention_mask"].to("cuda")
+
+outputs = model.generate(
+    input_ids=input_ids, attention_mask=attention_masks,
+    max_length=256,
+    early_stopping=True
+)
+
+for output in outputs:
+    line = tokenizer.decode(output, skip_special_tokens=True, clean_up_tokenization_spaces=True)
+    print(line)
+```
+
+
 # Google Cloud Storage 
 
 Our base Google Cloud Storage URI is at [gs://scifive]()
@@ -36,29 +66,6 @@ Instruction on access Cloud Storage from the command line with python library gs
 
 
 ### Example
-```python
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
-
-tokenizer = AutoTokenizer.from_pretrained("razent/SciFive-base-Pubmed")  
-model = AutoModelForSeq2SeqLM.from_pretrained("razent/SciFive-base-Pubmed")
-
-sentence = "Identification of APC2 , a homologue of the adenomatous polyposis coli tumour suppressor ."
-text = sentence + " </s>"
-
-encoding = tokenizer.encode_plus(text, pad_to_max_length=True, return_tensors="pt")
-input_ids, attention_masks = encoding["input_ids"].to("cuda"), encoding["attention_mask"].to("cuda")
-
-outputs = model.generate(
-    input_ids=input_ids, attention_mask=attention_masks,
-    max_length=256,
-    early_stopping=True
-)
-
-for output in outputs:
-    line = tokenizer.decode(output, skip_special_tokens=True, clean_up_tokenization_spaces=True)
-    print(line)
-```
-
 #### Below, we give an example of how to use SciFive on Huggingface to generate MedNLI outputs. We also publish our SciFive finetuned on MedNLI for reproducing experiments.
 ```python
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
@@ -86,10 +93,6 @@ for output in outputs:
 ```
 
 
-# HuggingFace
-* **SciFive Pubmed+PMC**: [Base](https://huggingface.co/razent/SciFive-base-Pubmed_PMC) | [Large](https://huggingface.co/razent/SciFive-large-Pubmed_PMC) 
-* **SciFive Pubmed**: [Base](https://huggingface.co/razent/SciFive-base-Pubmed) | [Large](https://huggingface.co/razent/SciFive-large-Pubmed) 
-* **SciFive PMC**: [Base](https://huggingface.co/razent/SciFive-base-PMC) | [Large](https://huggingface.co/razent/SciFive-large-PMC)
 
 ## Datasets
 
