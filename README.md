@@ -53,12 +53,15 @@ Instruction on access Cloud Storage from the command line with python library gs
 
 ### gsutil URI for 6 SciFive models:
 
-* **SciFive Pubmed+PMC Base**: [gs://scifive/models/pubmed_pmc/base]() 
-* **SciFive Pubmed+PMC Large**: [gs://scifive/models/pubmed_pmc/large]() 
-* **SciFive Pubmed Base**: [gs://scifive/models/pubmed/base]() 
-* **SciFive Pubmed Large**: [gs://scifive/models/pubmed/large]() 
-* **SciFive PMC Base**: [gs://scifive/models/pmc/base]() 
-* **SciFive PMC Large**: [gs://scifive/models/pmc/large]() 
+The following table contains pretrained SciFive checkpoints.
+
+| Model           |    Size     | Step | Config  | Checkpoint  |
+|:---------------:|:-----------:|:----:|:-------:|:-----------:|
+| SciFive Pubmed    | base & large  | 2000000 | [T5 configs](https://storage.googleapis.com/scifive/models/pubmed/base/operative_config.gin)| `gs://scifive/models/pubmed/{size}/` |
+| SciFive Pubmed+PMC    | base & large  | 1200000 | [T5 configs](https://storage.googleapis.com/scifive/models/pubmed_pmc/base/operative_config.gin)| `gs://scifive/models/pubmed_pmc/{size}/` |
+| SciFive PMC    | base & large  | 1200000 | [T5 configs](https://storage.googleapis.com/scifive/models/pmc/base/operative_config.gin)| `gs://scifive/models/pmc/{size}/` |
+
+* `{size}` is either `base` or `large`
 
 ### gsutil URI for Pretrain data:
 * **Pubmed**: [gs://scifive/pretrain/pubmed]() 
