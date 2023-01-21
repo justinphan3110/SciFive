@@ -57,7 +57,7 @@ The following table contains pretrained SciFive checkpoints.
 
 | Model           |    Size     | Step | Config  | Checkpoint  |
 |:---------------:|:-----------:|:----:|:-------:|:-----------:|
-| SciFive Pubmed    | base & large  | 2000000 | [T5 configs](https://storage.googleapis.com/scifive/models/pubmed/base/operative_config.gin)| `gs://scifive/models/pubmed/{size}/` |
+| SciFive Pubmed    | base & large  | 1194600 | [T5 configs](https://storage.googleapis.com/scifive/models/pubmed/base/operative_config.gin)| `gs://scifive/models/pubmed/{size}/` |
 | SciFive Pubmed+PMC    | base & large  | 1200000 | [T5 configs](https://storage.googleapis.com/scifive/models/pubmed_pmc/base/operative_config.gin)| `gs://scifive/models/pubmed_pmc/{size}/` |
 | SciFive PMC    | base & large  | 1200000 | [T5 configs](https://storage.googleapis.com/scifive/models/pmc/base/operative_config.gin)| `gs://scifive/models/pmc/{size}/` |
 
