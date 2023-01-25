@@ -1,6 +1,6 @@
 # BioT5X: Pretrained T5X Transformer for Biomedical Text Generation and Classification 
 
-In-Progress Work
+# A [Flaxformer](https://github.com/google/flaxformer) and [T5X](https://github.com/google-research/t5x) implemtation for [SciFive](https://github.com/justinphan3110/SciFive) 
 
 BioT5X: Pretrained T5X Transformer for Biomedical Text Generation and Classification 
 
