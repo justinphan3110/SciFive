@@ -1,5 +1,8 @@
 # BioT5X: Pretrained T5X Transformer for Biomedical Text Generation and Classification 
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg?style=flat-square)](http://makeapullrequest.com)
+[![arXiv](https://img.shields.io/badge/arXiv-2106.03598-b31b1b.svg)](https://arxiv.org/abs/2106.03598)
+
 # A [Flaxformer](https://github.com/google/flaxformer) and [T5X](https://github.com/google-research/t5x) implemtation for [SciFive](https://github.com/justinphan3110/SciFive) 
 
 BioT5X: Pretrained T5X Transformer for Biomedical Text Generation and Classification 
