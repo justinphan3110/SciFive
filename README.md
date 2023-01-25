@@ -14,6 +14,10 @@
 SciFive provided a Text-Text framework for biomedical language and natural language in NLP. Under the [T5](https://github.com/google-research/text-to-text-transfer-transformer)'s framework and desrbibed in the paper [SciFive: a text-to-text transformer model for biomedical literature](https://arxiv.org/abs/2106.03598), SciFive achieve state-of-the-art and competitive results on multiple biomedical-natural language tasks. 
 
 
+# 🎉 UPDATE Jan 2023
+## We are migrating SciFive into [BioT5X: Pretrained T5X Transformer for Biomedical Text Generation and Classification](https://github.com/justinphan3110/SciFive/tree/main/biot5x) that using [T5X](https://github.com/google-research/t5x) and [Flaxformer](https://github.com/google/flaxformer)
+
+
 # 🤗 HuggingFace
 * **SciFive Pubmed+PMC**: [Base](https://huggingface.co/razent/SciFive-base-Pubmed_PMC) | [Large](https://huggingface.co/razent/SciFive-large-Pubmed_PMC) 
 * **SciFive Pubmed**: [Base](https://huggingface.co/razent/SciFive-base-Pubmed) | [Large](https://huggingface.co/razent/SciFive-large-Pubmed) 
