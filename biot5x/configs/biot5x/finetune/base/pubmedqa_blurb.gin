@@ -1,0 +1,13 @@
+from __gin__ import dynamic_registration
+
+include "configs/biot5x/base_finetune_single_gpu.gin"
+
+WARMUP_STEPS = 3
+LEARNING_RATE = 0.0001
+MIXTURE_OR_TASK_NAME = 'pubmedqa'
+TASK_FEATURE_LENGTHS = {"inputs": 512, "targets": 4}
+BATCH_SIZE = 64
+
+SAVE_PERIOD = 690
+EVAL_PERIOD = 690
+TRAIN_STEPS=1_200_690 # 690 finetune steps + 200k BioT5X + 1M T5

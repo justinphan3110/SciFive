@@ -1,0 +1,13 @@
+from __gin__ import dynamic_registration
+
+include "configs/biot5x/base_finetune_single_gpu.gin"
+
+WARMUP_STEPS = 10
+LEARNING_RATE = 0.001
+MIXTURE_OR_TASK_NAME = 'HoC'
+TASK_FEATURE_LENGTHS = {"inputs": 512, "targets": 20}
+BATCH_SIZE = 128
+
+SAVE_PERIOD = 2800
+EVAL_PERIOD = 4900
+TRAIN_STEPS=1_205_000 # 5000 finetune steps + 200k BioT5X + 1M T5

@@ -1,0 +1,71 @@
+from __gin__ import dynamic_registration
+
+import __main__ as train_script
+import seqio
+from t5.data import mixtures
+from t5x import models
+from t5x import partitioning
+from t5x import utils
+
+include "configs/t5/t5_1_0/base.gin"
+include "configs/runs/pretrain.gin"
+
+DROPOUT_RATE = 0.1
+WARMUP_STEPS = 100
+LEARNING_RATE = 0.001
+RANDOM_SEED = 0
+
+
+train/utils.DatasetConfig:
+  batch_size = %BATCH_SIZE
+  use_cached = False
+  pack = True
+  seed = 0
+
+train_eval/utils.DatasetConfig:
+  batch_size = %BATCH_SIZE
+  use_cached = False
+  pack = True
+  seed = 0
+
+infer_eval/utils.DatasetConfig:
+  mixture_or_task_name = %MIXTURE_OR_TASK_NAME
+  task_feature_lengths = None  # compute max
+  split = "predict"
+  seed = 0
+  batch_size = %BATCH_SIZE
+  shuffle = False
+  use_cached = False
+
+train_script.train:
+  eval_period = %EVAL_PERIOD
+  eval_steps = 20
+  random_seed = 0
+  use_hardware_rng = True
+  infer_eval_dataset_cfg = @infer_eval/utils.DatasetConfig()
+  inference_evaluator_cls = @seqio.Evaluator
+
+seqio.Evaluator:
+  logger_cls = [@seqio.PyLoggingLogger, @seqio.TensorBoardLogger, @seqio.JSONLogger]
+  num_examples = None  # Use all examples in the infer_eval dataset.
+  use_memory_cache = True
+
+utils.SaveCheckpointConfig:
+  period = %SAVE_PERIOD  # checkpoint frequency
+
+# `num_decodes` is equivalent to a beam size in a beam search decoding.
+models.EncoderDecoderModel.predict_batch_with_aux.num_decodes = 4
+
+partitioning.PjitPartitioner:
+  model_parallel_submesh = (1, 1)
+  logical_axis_rules= @partitioning.standard_logical_axis_rules()
+
+utils.RestoreCheckpointConfig:
+  path = %INITIAL_CHECKPOINT_PATH
+  mode = 'specific'
+  dtype = 'float32'
+
+utils.create_learning_rate_scheduler:
+  factors = 'constant'
+  base_learning_rate = %LEARNING_RATE
+  warmup_steps = %WARMUP_STEPS

@@ -1,0 +1,33 @@
+from __gin__ import dynamic_registration
+
+
+# Example Run:  
+# model_size = 'base'
+# task = 'ddi'
+# train_file = f'BioT5X/data/{task}/train_blurb.tsv'
+# test_file = f'BioT5X/data/{task}/test_blurb.tsv'
+
+# model_dir = f'out/{task}/{model_size}_{task}_biot5x'
+# pretrained_path=f'biot5x_pubmed_pmc_{model_size}/{model_size}'
+
+
+#%run 'BioT5X/src/run_t5x_colab_gpu.py' \
+#  --gin_file="BioT5X/configs/biot5x/finetune/base/ddi_blurb.gin" \
+#  --gin.MODEL_DIR="'{model_dir}'" \
+#  --gin.INITIAL_CHECKPOINT_PATH="'{pretrained_path}'" \
+#  --task="{task}" \
+#  --train_file="{train_file}" \
+#  --predict_file="{test_file}"
+# Result: F1: 82.63
+
+include "configs/biot5x/base_finetune_single_gpu.gin"
+
+WARMUP_STEPS = 10
+LEARNING_RATE = 0.001
+MIXTURE_OR_TASK_NAME = 'ddi'
+TASK_FEATURE_LENGTHS = {"inputs": 256, "targets": 4}
+BATCH_SIZE = 256 # A100 GPU - 80GB
+
+SAVE_PERIOD = 5000
+EVAL_PERIOD = 1000
+TRAIN_STEPS=1_205_000 # 5000 finetune steps + 200k BioT5X + 1M T5
