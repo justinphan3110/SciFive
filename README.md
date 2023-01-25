@@ -1,6 +1,7 @@
 # SciFive
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scifive-a-text-to-text-transformer-model-for/named-entity-recognition-on-bc5cdr-chemical)](https://paperswithcode.com/sota/named-entity-recognition-on-bc5cdr-chemical?p=scifive-a-text-to-text-transformer-model-for)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scifive-a-text-to-text-transformer-model-for/relation-extraction-on-chemprot)](https://paperswithcode.com/sota/relation-extraction-on-chemprot?p=scifive-a-text-to-text-transformer-model-for)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scifive-a-text-to-text-transformer-model-for/natural-language-inference-on-mednli)](https://paperswithcode.com/sota/natural-language-inference-on-mednli?p=scifive-a-text-to-text-transformer-model-for)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scifive-a-text-to-text-transformer-model-for/named-entity-recognition-on-species-800)](https://paperswithcode.com/sota/named-entity-recognition-on-species-800?p=scifive-a-text-to-text-transformer-model-for)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scifive-a-text-to-text-transformer-model-for/named-entity-recognition-on-bc5cdr-disease)](https://paperswithcode.com/sota/named-entity-recognition-on-bc5cdr-disease?p=scifive-a-text-to-text-transformer-model-for)
