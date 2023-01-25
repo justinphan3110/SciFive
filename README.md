@@ -10,12 +10,14 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scifive-a-text-to-text-transformer-model-for/named-entity-recognition-ner-on-ncbi-disease)](https://paperswithcode.com/sota/named-entity-recognition-ner-on-ncbi-disease?p=scifive-a-text-to-text-transformer-model-for)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scifive-a-text-to-text-transformer-model-for/named-entity-recognition-ner-on-jnlpba)](https://paperswithcode.com/sota/named-entity-recognition-ner-on-jnlpba?p=scifive-a-text-to-text-transformer-model-for)
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg?style=flat-square)](http://makeapullrequest.com)
+[![arXiv](https://img.shields.io/badge/arXiv-2106.03598-b31b1b.svg)](https://arxiv.org/abs/2106.03598)
 
 SciFive provided a Text-Text framework for biomedical language and natural language in NLP. Under the [T5](https://github.com/google-research/text-to-text-transfer-transformer)'s framework and desrbibed in the paper [SciFive: a text-to-text transformer model for biomedical literature](https://arxiv.org/abs/2106.03598), SciFive achieve state-of-the-art and competitive results on multiple biomedical-natural language tasks. 
 
 
 # 🎉 UPDATE Jan 2023
-## We are migrating SciFive into [BioT5X: Pretrained T5X Transformer for Biomedical Text Generation and Classification](https://github.com/justinphan3110/SciFive/tree/main/biot5x) that using [T5X](https://github.com/google-research/t5x) and [Flaxformer](https://github.com/google/flaxformer)
+## We are migrating SciFive into [BioT5X: Pretrained T5X Transformer for Biomedical Text Generation and Classification](https://github.com/justinphan3110/SciFive/tree/main/biot5x) that use [T5X](https://github.com/google-research/t5x) and [Flaxformer](https://github.com/google/flaxformer)
 
 
 # 🤗 HuggingFace
