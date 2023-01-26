@@ -12,4 +12,4 @@ os.system("pip install git+https://github.com/google-research/t5x -f https://sto
 """Install Extra Requirements"""
 # nest-asyncio is for colab notebook running
 
-os.system("pip install datasets tensorflow_datasets==4.8.1 lxml==4.9.2 nest-asyncio==1.5.6")
+os.system("pip install seqeval datasets tensorflow_datasets==4.8.1 lxml==4.9.2 nest-asyncio==1.5.6")
