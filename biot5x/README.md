@@ -7,14 +7,27 @@
 
 
 
-BioT5X: Pretrained T5X Transformer for Biomedical Text Generation and Classification 
+### BioT5X: Pretrained T5X Transformer for Biomedical Text Generation and Classification 
 
 
 | Model           |    Size     | Step | Config  | Checkpoint  |
 |:---------------:|:-----------:|:----:|:-------:|:-----------:|
 | BioT5X    | base & large  | 1200000 | [T5_1_0 configs](https://github.com/justinphan3110/BioT5X/tree/main/configs/t5/t5_1_0)| `gs://scifive/biot5x/{size}/` |
 
-## Finetune Example
+### Set U
+
+#### Set up JAX with CUDA
+```[python]
+pip install jaxlib==0.4.1+cuda11.cudnn86 -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+```
+
+#### Set up BioT5X
+```
+python3 setup.py
+```
+
+
+### Finetune Example
 ```[python]
 model_size = 'base'
 task = 'HoC'
@@ -29,7 +42,7 @@ gin_file = f'BioT5X/configs/biot5x/finetune/base/{task}_blurb.gin'
 eval_period = 50
 metric = 'hoc'
 
-%run 'BioT5X/src/finetune_biot5x.py' \
+%run 'src/finetune_biot5x.py' \
   --gin_file="{gin_file}" \
   --gin.MODEL_DIR="'{model_dir}'" \
   --gin.EVAL_PERIOD='{eval_period}'\
