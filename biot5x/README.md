@@ -14,7 +14,7 @@
 |:---------------:|:-----------:|:----:|:-------:|:-----------:|
 | BioT5X    | base & large  | 1200000 | [T5_1_0 configs](https://github.com/justinphan3110/BioT5X/tree/main/configs/t5/t5_1_0)| `gs://scifive/biot5x/{size}/` |
 
-### Set U
+### Set Up
 
 #### Set up JAX with CUDA
 ```[python]
