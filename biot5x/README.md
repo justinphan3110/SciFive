@@ -29,6 +29,14 @@ python3 setup.py
 
 ### Finetune Example
 ```[python]
+task2metric = {
+  "ddi": "PRF1",
+  "chemprot": "PRF1",
+  "GAD": "PRF1",
+  "BioASQ":"accuracy", "PubMedQA": "accuracy",
+  "HoC":"hoc"
+}
+
 model_size = 'base'
 task = 'HoC'
 train_file = f'data/{task}/train_blurb.tsv'
@@ -36,16 +44,15 @@ test_file = f'data/{task}/test_blurb.tsv'
 
 model_dir = f'out/{task}/{model_size}_{task}'
 pretrained_path=f'biot5x_pubmed_pmc_{model_size}/{model_size}'
+
+# See gin file for hyperparams like batch_size, input/target length, train steps, etc.
 gin_file = f'configs/biot5x/finetune/base/{task}_blurb.gin'
 
-
-eval_period = 50
-metric = 'hoc'
+metric = task2metric[task]
 
 %run 'src/finetune_biot5x.py' \
   --gin_file="{gin_file}" \
   --gin.MODEL_DIR="'{model_dir}'" \
-  --gin.EVAL_PERIOD='{eval_period}'\
   --gin.INITIAL_CHECKPOINT_PATH="'{pretrained_path}'" \
   --task="{task}" \
   --metric="{metric}" \
