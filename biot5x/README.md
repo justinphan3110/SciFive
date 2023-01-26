@@ -31,12 +31,12 @@ python3 setup.py
 ```[python]
 model_size = 'base'
 task = 'HoC'
-train_file = f'BioT5X/data/{task}/train_blurb.tsv'
-test_file = f'BioT5X/data/{task}/test_blurb.tsv'
+train_file = f'data/{task}/train_blurb.tsv'
+test_file = f'data/{task}/test_blurb.tsv'
 
 model_dir = f'out/{task}/{model_size}_{task}'
 pretrained_path=f'biot5x_pubmed_pmc_{model_size}/{model_size}'
-gin_file = f'BioT5X/configs/biot5x/finetune/base/{task}_blurb.gin'
+gin_file = f'configs/biot5x/finetune/base/{task}_blurb.gin'
 
 
 eval_period = 50
