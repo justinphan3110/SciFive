@@ -66,7 +66,7 @@ metric = task2metric[task]
 |           Task          | BioBERT<sub>base</sub> | PubmedBERT<sub>base</sub> | BioLinkBERT<sub>base</sub> | **BioT5X<sub>base</sub> (Ours)** |
 |:-----------------------:|-----------------|-----------------|------------------|-----------------|
 | <sub>**Named entity recognition**</sub>                                     
-| BC5-chem                |      92.85      |      93.33      |       93.75      |    ****         |
+| BC5-chem                |      92.85      |      93.33      |       93.75      |    92.74         |
 | BC5-disease             |      84.70      |      85.62      |       86.10      |    85.28         |
 | NCBI-disease            |      89.13      |      87.82      |       88.18      |    89.05         |
 | BC2GM                   |      83.82      |      84.52      |       84.90      |    83.2         |
