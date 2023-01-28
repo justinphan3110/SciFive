@@ -4,10 +4,10 @@ include "configs/biot5x/base_finetune_single_gpu.gin"
 
 WARMUP_STEPS = 100
 LEARNING_RATE = 0.001
-MIXTURE_OR_TASK_NAME = 'BC5CDR_chem'
+MIXTURE_OR_TASK_NAME = 'BC5CDR_disease'
 TASK_FEATURE_LENGTHS = {"inputs": 400, "targets": 400}
 BATCH_SIZE = 64
 
-SAVE_PERIOD = 1000
-EVAL_PERIOD = 1000
-TRAIN_STEPS=1_201_000 # 1000 finetune steps + 200k BioT5X + 1M T5
+SAVE_PERIOD = 2000
+EVAL_PERIOD = 200
+TRAIN_STEPS=1_202_000 # 2000 finetune steps + 200k BioT5X + 1M T5
