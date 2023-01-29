@@ -28,6 +28,9 @@ python3 setup.py
 
 
 ### Finetune Example
+
+### Our example Fine-tunning notebook for the BLURB Tasks [finetunning_biot5x_blurb.ipynb](https://github.com/justinphan3110/SciFive/blob/main/biot5x/examples/finetunning_biot5x_blurb.ipynb)
+
 ```[python]
 task2metric = {
   "ddi": "PRF1",
