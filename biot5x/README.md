@@ -14,7 +14,7 @@
 |:---------------:|:-----------:|:----:|:-------:|:-----------:|
 | BioT5X    | base & large  | 1200000 | [T5_1_0 configs](https://github.com/justinphan3110/BioT5X/tree/main/configs/t5/t5_1_0)| `gs://scifive/biot5x/{size}/` |
 
-### Set Up
+### 📝Set Up
 
 #### Set up JAX with CUDA
 ```[python]
@@ -27,7 +27,7 @@ python3 setup.py
 ```
 
 
-### Finetune Example
+### 📝 Finetune Example
 
 ### Our example Fine-tunning notebook for the BLURB Tasks [finetunning_biot5x_blurb.ipynb](https://github.com/justinphan3110/SciFive/blob/main/biot5x/examples/finetunning_biot5x_blurb.ipynb)
 
