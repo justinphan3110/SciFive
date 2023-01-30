@@ -47,7 +47,7 @@ from t5x import utils
 import tensorflow as tf
 from tensorflow.io import gfile
 from typing_extensions import Protocol
-from src.task import seqio, registerTask
+from task import seqio, registerTask
 
 import nest_asyncio
 nest_asyncio.apply()
@@ -745,7 +745,7 @@ if __name__ == '__main__':
           summary_writer=None,
           step=0)
 
-    splits = {"test": FLAGS.test_file}
+    splits = {"predict": FLAGS.test_file}
     registerTask(FLAGS.task, splits=splits)
 
     if FLAGS.shard_id is not None:
