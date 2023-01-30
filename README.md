@@ -19,6 +19,8 @@ SciFive provided a Text-Text framework for biomedical language and natural langu
 # 🎉 UPDATE Jan 2023
 ## We are migrating SciFive into [BioT5X: Pretrained T5X Transformer for Biomedical Text Generation and Classification](https://github.com/justinphan3110/SciFive/tree/main/biot5x) that use [T5X](https://github.com/google-research/t5x) and [Flaxformer](https://github.com/google/flaxformer)
 
+###  📝 Our example BioT5X Fine-tunning notebook for the BLURB Tasks [finetunning_biot5x_blurb.ipynb](https://github.com/justinphan3110/SciFive/blob/main/biot5x/examples/finetunning_biot5x_blurb.ipynb)
+
 
 # 🤗 HuggingFace
 * **SciFive Pubmed+PMC**: [Base](https://huggingface.co/razent/SciFive-base-Pubmed_PMC) | [Large](https://huggingface.co/razent/SciFive-large-Pubmed_PMC) 
