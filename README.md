@@ -108,7 +108,7 @@ for output in outputs:
 
 ## Datasets
 
-All of the finetune dataset already pre-procossed into text-text format also availabe at [this](https://console.cloud.google.com/storage/browser/scifive/finetune)
+All of the finetune dataset already preprocessed into text-text format also availabe at [this](https://console.cloud.google.com/storage/browser/scifive/finetune)
 
 ## 📊&nbsp; Expected Results 
 
